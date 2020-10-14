@@ -1,0 +1,121 @@
+.container-anim {
+    animation: fadeIn ease-in-out 5s;
+}
+body {
+    color: purple;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity:  1;
+    }
+}
+.container-anim1 {
+    animation: fadeIn ease-in-out 1s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity:  1;
+    }
+}
+.container-anim2 {
+    animation: fadeIn ease-in-out 5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity:  1;
+    }
+}
+#col1 {
+   cursor: pointer;
+    justify-content: center;
+   margin-top: 11%;
+   color: purple;
+}
+.active {
+    font-size: 80px;
+}
+.no-active {
+    opacity: 0.5;
+}
+.number1, .number2, .number3 {
+    transform: font-size 0.5s;
+}
+#n1, #n2, #n3 {
+    transition: all .4s;
+}
+.image1 {
+    height: 600px;
+    width: 500px;
+    max-height: 600px;
+    transition: background-image 0.5s;
+    background-image: url(https://www.allisonbarbera.com/wp-content/uploads/2018/02/charlotte-tilbury-wonder-glow-review-swatches-2.jpg);
+    background-size: cover;
+}
+#h1 {
+    font-size: 85px;
+    color: white;
+    transform: translate(-250px, -200px);
+    transition: all .5s ease-in-out;
+}
+body {
+    overflow-x: hidden;
+    background-color: rgb(14, 13, 13);
+}
+.card-img {
+    max-width: 200px;
+}
+.card {
+    max-width: 200px;
+}
+.card-img {
+   transition: all 0.5s;
+}
+.card-img-overlay {
+    color: white;
+   opacity: 0;
+   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.185), rgba(0, 0, 0, 0.212));
+  
+    transition: opacity 0.5s;
+}
+.card-text {
+    margin-top: 90%;
+    color: white;
+    font-size: 24px;
+}
+#counter-item {
+    font-size: 40px;
+    color: white;
+}
+#counter-1 {   border: 2px solid white;
+    padding: 50px;
+    padding-top: 80px;
+    transform: rotate(60deg);
+    }
+
+#counter-3 {   border: 2px solid white;
+padding: 50px;
+padding-top: 80px;
+transform: rotate(60deg);
+}
+#counter-2 {   border: 2px solid white;
+    padding: 50px;
+    padding-top: 80px;
+    transform: rotate(-60deg);
+    }
+#inside-1 {
+    transform: rotate(-60deg);
+}
+#inside-2 {
+    transform: rotate(60deg);
+}
